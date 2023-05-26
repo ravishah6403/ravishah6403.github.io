@@ -1,0 +1,351 @@
+body {
+    margin: 0%;
+    background-color: white;
+}
+
+#leaderboardHead {
+   /* Leaderboard */
+    position: absolute;
+    width: 362px;
+    height: 58px;
+    top: 18px;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+
+    text-align: center;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    height: 447px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    left: 0px;
+    top: -61px;
+    margin-bottom: 9px;
+
+    background: #656CEC;
+    border-radius: 64px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #656CEC;
+}
+
+#leaderboardHR {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 100px;
+    
+    border: 2px solid #FFFFFF;
+}
+
+.circle1 {
+    position: absolute;
+    width: 214.86px;
+    height: 214.86px;
+    left: 50%;
+    top: 151.71px;
+    border-radius: 50%;
+    border: 8.055px solid #FFFFFF;
+
+    transform: translate(-50%, 0%);
+
+    background-image: "";
+}
+
+
+.posCircle1 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 50%;
+    top: 0px;
+    border-radius: 50%;
+
+    transform: translate(-50%, -46.66px);
+
+    background: #BABEFF;
+}
+
+.nameRect1 {
+    position: absolute;
+    width: 228.29px;
+    height: 42.97px;
+    left: 50%;
+    top: 0px;
+
+    transform: translate(-50%, 232.32px);
+
+    background: #BABEFF;
+    border-radius: 36px;
+}
+
+.nameRectText1 {
+    position: absolute;
+    width: 150.09px;
+    height: 29px;
+    left: 4.53%;
+    top: 50%;
+
+    transform: translate(0%, -43%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.nameRectPoints1 {
+    position: absolute;
+    width: 106.09px;
+    height: 29px;
+    left: 83.06%;
+    top: 50%;
+
+    transform: translate(0%, -50%);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.circle2 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 50%;
+    top: 222px;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;
+
+    transform: translate(-379.485px, 0px);
+
+    background-image: "";
+}
+
+.nameRectText2 {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    left: 4%;
+    top: 50%;
+
+    transform: translate(0%, -50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.nameRectPoints2 {
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 78.46%;
+    top: 50%;
+
+    transform: translate(0%, -50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.point1 {
+    position: absolute;
+    width: 2.69px;
+    height: 2.69px;
+    left: 76.14%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.point2 {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    left: 66.33%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.point3{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    left: 73.33%;
+    top: 50%;
+
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.posCircle2 {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 50%;
+    top: 0px;
+    border-radius: 50%;
+
+    transform: translate(-50%, -44.66px);
+
+    background: #BABEFF;
+}
+
+.posCircleText {
+    position: absolute;
+    width: 17px;
+    height: 26px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.nameRect2 {
+    position: absolute;
+    width: 170px;
+    height: 32px;
+    left: 50%;
+    top: 0px;
+
+    transform: translate(-50%, 173px);
+
+    background: #BABEFF;
+    border-radius: 16px;
+}
+
+.circle3 {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 50%;
+    top: 222px;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;
+
+    transform: translate(207.485px, 0px);
+
+    background: #BABEFF;
+}
+
+.posNum {
+    position: absolute;
+    width: 23px;
+    height: 36px;
+    left: 40px;
+    top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #1E1E1E;
+}
+
+.posCircle {
+    position: absolute;
+    width: 74.42px;
+    height: 74.42px;
+    left: 127.29px;
+    top: 50%;
+    border-radius: 50%;
+    border: 2.79px solid #FFFFFF;
+    transform: translate(0%, -50%);
+
+    background-image: "";
+}
+
+.posName {
+    position: absolute;
+    width: 550px;
+    height: 36px;
+    left: 255px;
+    top: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #1E1E1E;
+}
+
+.posPoints {
+    position: absolute;
+    width: 227px;
+    height: 36px;
+    right: 6.25vw;
+    top: 33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.positionRect {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 14px;
+
+    background: #D2D4F2;
+}
