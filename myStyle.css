@@ -73,6 +73,7 @@ body {
     transform: translate(-50%, 0%);
 
     background-image: "";
+    background-size: contain;
 }
 
 
@@ -150,6 +151,7 @@ body {
     transform: translate(-379.485px, 0px);
 
     background-image: "";
+    background-size: contain;
 }
 
 .nameRectText2 {
@@ -277,7 +279,8 @@ body {
 
     transform: translate(207.485px, 0px);
 
-    background: #BABEFF;
+    background-image: "";
+    background-size: contain;
 }
 
 .posNum {
@@ -307,6 +310,7 @@ body {
     transform: translate(0%, -50%);
 
     background-image: "";
+    background-size: contain;
 }
 
 .posName {
